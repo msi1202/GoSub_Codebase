@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoSub – Rent Payment</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="nav-container">
+      <div class="logo"><a href="index.html">GoSub</a></div>
+      <nav class="nav-links">
+        <a href="how-it-works.html">How It Works</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Log In</a>
+        <a href="signup.html">Sign Up</a>
+      </nav>
+      <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+    </div>
+  </header>
+
+  <section class="payment-section">
+    <h2>Rent Payment</h2>
+    <div class="payment-form-container">
+      <p><strong>Amount Due:</strong> $800 (1 month rent)</p>
+      <form class="payment-form">
+        <label>
+          Cardholder Name:<br/>
+          <input type="text" name="cardname" placeholder="Name on Card" required />
+        </label>
+        <label>
+          Card Number:<br/>
+          <input type="text" name="cardnumber" placeholder="1234 5678 9012 3456" required />
+        </label>
+        <label>
+          Expiration Date:<br/>
+          <input type="text" name="exp" placeholder="MM/YY" required />
+        </label>
+        <label>
+          CVV:<br/>
+          <input type="text" name="cvv" placeholder="123" required />
+        </label>
+        <button type="button" class="pay-button">Pay Now</button>
+      </form>
+      <div class="payment-success" style="display:none;">
+        <h3>Payment Successful!</h3>
+        <p>Thank you. Your rent payment has been received.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 GoSub. All rights reserved.</p>
+      <p>Follow us: 
+        <a href="#"><i class="fa fa-facebook"></i></a> 
+        <a href="#"><i class="fa fa-twitter"></i></a> 
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

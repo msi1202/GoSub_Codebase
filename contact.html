@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>GoSub – Contact</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo"><a href="index.html">GoSub</a></div>
+    <nav class="nav-links" id="navbar">
+      <a href="how-it-works.html">How It Works</a>
+      <a href="listings.html">Listings</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="login.html" class="btn-login">Log In</a>
+      <a href="signup.html" class="btn-signup">Sign Up</a>
+    </nav>
+    <div class="nav-toggle" id="navToggle">&#9776;</div>
+  </header>
+
+  <!-- Contact Hero -->
+  <section class="parallax-hero small-hero" id="contactHero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Contact Us</h1>
+      <p>Questions? Feedback? Let’s talk.</p>
+    </div>
+  </section>
+
+  <section class="contact-section" data-aos="fade-up">
+    <form class="contact-form">
+      <label>Name<br/>
+        <input type="text" placeholder="Your Name" required/>
+      </label>
+      <label>Email<br/>
+        <input type="email" placeholder="Your Email" required/>
+      </label>
+      <label>Message<br/>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+      </label>
+      <button class="btn-primary" type="submit">Send Message</button>
+    </form>
+    <p style="margin-top:1em; text-align:center;">
+      Or email us directly at 
+      <a href="mailto:evadpranay@hotmail.com">evadpranay@hotmail.com</a>
+    </p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 GoSub. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 800 });
+  </script>
+</body>
+</html>

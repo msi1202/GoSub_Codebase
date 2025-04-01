@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GoSub – Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Fixed Navigation -->
+  <header class="main-header">
+    <div class="logo"><a href="index.html">GoSub</a></div>
+    <nav class="nav-links" id="navbar">
+      <a href="how-it-works.html">How It Works</a>
+      <a href="listings.html">Listings</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="btn-login">Log In</a>
+      <a href="signup.html" class="btn-signup">Sign Up</a>
+    </nav>
+    <div class="nav-toggle" id="navToggle">&#9776;</div>
+  </header>
+
+  <!-- Hero Section (Parallax) -->
+  <section class="parallax-hero big-hero" id="homeHero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>GoSub</h1>
+      <p>Your one‑stop solution for short‑term subleasing for students and interns.</p>
+      <div class="cta-row">
+        <a href="subleaser.html" class="hero-btn">I Have a Place</a>
+        <a href="sublessee.html" class="hero-btn alt">I Need a Place</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="intro-section" data-aos="fade-up">
+    <h2>No More Wasted Rent</h2>
+    <p>
+      Say goodbye to endless searches and double rent. GoSub centralizes everything—from listing to digital signing and secure payments—in one beautiful interface.
+    </p>
+  </section>
+
+  <!-- Split Section -->
+  <section class="split-section" data-aos="fade-up" data-aos-delay="200">
+    <div class="split-content">
+      <h3>Designed for Modern College Life</h3>
+      <p>
+        Whether you're a student looking for a short‑term rental or subleasing your own space, our platform makes it simple, fast, and stress‑free.
+      </p>
+      <a href="how-it-works.html" class="learn-more-btn">Learn More</a>
+    </div>
+    <div class="split-img">
+      <img src="https://images.pexels.com/photos/9496706/pexels-photo-9496706.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Modern student living" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 GoSub. All rights reserved.</p>
+    <nav>
+      <a href="contact.html">Contact</a> | 
+      <a href="how-it-works.html">How It Works</a> | 
+      <a href="listings.html">Listings</a>
+    </nav>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 800 });
+  </script>
+</body>
+</html>
