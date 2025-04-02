@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
         title: "Modern Studio near UCLA",
         location: "Los Angeles",
         price: "$1200/mo",
-        heroImg: "https://images.pexels.com/photos/7579225/pexels-photo-7579225.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        cardImg: "https://images.pexels.com/photos/7579225/pexels-photo-7579225.jpeg?auto=compress&cs=tinysrgb&w=400",
+        heroImg: "https://images.pexels.com/photos/6444268/pexels-photo-6444268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        cardImg: "https://images.pexels.com/photos/6444268/pexels-photo-6444268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         desc: "Bright, open studio with in-building laundry. Perfect for interns.",
         details: "Furnished, near campus transit. Available June - August."
       },
@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
         title: "Shared 2BR near NYU",
         location: "New York",
         price: "$900/mo",
-        heroImg: "https://images.pexels.com/photos/5513269/pexels-photo-5513269.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        cardImg: "https://images.pexels.com/photos/5513269/pexels-photo-5513269.jpeg?auto=compress&cs=tinysrgb&w=400",
+        heroImg: "https://images.pexels.com/photos/17882092/pexels-photo-17882092/free-photo-of-expert-painting-and-renovation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        cardImg: "https://images.pexels.com/photos/17882092/pexels-photo-17882092/free-photo-of-expert-painting-and-renovation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         desc: "Cozy shared apartment with updated kitchen and flexible dates.",
         details: "Includes WiFi & utilities. 5-minute walk to campus. Available May - Dec."
       },
@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
         title: "1BR Loft near USC",
         location: "Los Angeles",
         price: "$1400/mo",
-        heroImg: "https://images.pexels.com/photos/6899293/pexels-photo-6899293.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        cardImg: "https://images.pexels.com/photos/6899293/pexels-photo-6899293.jpeg?auto=compress&cs=tinysrgb&w=400",
+        heroImg: "https://images.pexels.com/photos/5824526/pexels-photo-5824526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        cardImg: "https://images.pexels.com/photos/5824526/pexels-photo-5824526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         desc: "Spacious loft with big windows and secure parking.",
         details: "Quiet neighborhood. Available June - October."
       }
