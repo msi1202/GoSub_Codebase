@@ -68,5 +68,20 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const payBtn = document.querySelector(".pay-button");
+  const paymentForm = document.querySelector(".payment-form");
+  const successMsg = document.querySelector(".payment-success");
+
+  if (payBtn && paymentForm && successMsg) {
+    payBtn.addEventListener("click", () => {
+      paymentForm.style.display = "none";
+      successMsg.style.display = "block";
+    });
+  }
+});
+</script>
+
 </body>
 </html>
