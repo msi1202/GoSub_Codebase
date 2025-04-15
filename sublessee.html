@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>GoSub – Create Your Profile</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo"><a href="index.html">GoSub</a></div>
+    <nav class="nav-links" id="navbar">
+      <a href="how-it-works.html">How It Works</a>
+      <a href="listings.html">Listings</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="btn-login">Log In</a>
+      <a href="signup.html" class="btn-signup">Sign Up</a>
+    </nav>
+    <div class="nav-toggle" id="navToggle">&#9776;</div>
+  </header>
+
+  <!-- Parallax Hero -->
+  <section class="parallax-hero small-hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Create Your Profile</h1>
+      <p>Let hosts know you're a trustworthy student looking for subleases.</p>
+    </div>
+  </section>
+
+  <section class="role-form-section" data-aos="fade-up">
+    <h2>Sublessee Profile</h2>
+    <form class="role-form">
+      <label>Full Name<br/>
+        <input type="text" placeholder="Your Name" required />
+      </label>
+      <label>University / Internship<br/>
+        <input type="text" placeholder="e.g. UCLA or Google" required />
+      </label>
+      <label>Budget ($/mo)<br/>
+        <input type="number" placeholder="Your monthly budget" required />
+      </label>
+      <label>Move-In Date<br/>
+        <input type="date" required />
+      </label>
+      <label>Brief Bio<br/>
+        <textarea rows="4" placeholder="Tell us a bit about yourself"></textarea>
+      </label>
+      <button class="btn-primary" type="submit">Create Profile</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 GoSub. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 800 });
+  </script>
+</body>
+</html>
