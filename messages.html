@@ -74,5 +74,27 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const sendBtn = document.querySelector(".send-btn");
+  const chatInput = document.querySelector(".chat-input input");
+  const chatMessages = document.querySelector(".chat-messages");
+
+  if (sendBtn && chatInput && chatMessages) {
+    sendBtn.addEventListener("click", () => {
+      const msg = chatInput.value.trim();
+      if (msg) {
+        const div = document.createElement("div");
+        div.className = "message sent";
+        div.innerHTML = `<p>${msg}</p>`;
+        chatMessages.appendChild(div);
+        chatInput.value = "";
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+    });
+  }
+});
+</script>
+
 </body>
 </html>
