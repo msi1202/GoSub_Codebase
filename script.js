@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const subleases = [
       {
         id: 1,
-        title: "Modern Studio near UCLA",
-        location: "Los Angeles",
+        title: "Modern Studio near UC",
+        location: "Clifton Heights - Cincinnati",
         price: "$1200/mo",
         heroImg: "https://images.pexels.com/photos/6444268/pexels-photo-6444268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         cardImg: "https://images.pexels.com/photos/6444268/pexels-photo-6444268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         id: 2,
-        title: "Shared 2BR near NYU",
-        location: "New York",
+        title: "Shared 2BR near Bellevue Park",
+        location: "Clifton Heights - Cincinnati",
         price: "$900/mo",
         heroImg: "https://images.pexels.com/photos/17882092/pexels-photo-17882092/free-photo-of-expert-painting-and-renovation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         cardImg: "https://images.pexels.com/photos/17882092/pexels-photo-17882092/free-photo-of-expert-painting-and-renovation.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       {
         id: 3,
-        title: "1BR Loft near USC",
-        location: "Los Angeles",
+        title: "1BR Loft near Findlay Market",
+        location: "Over-the-Rhine - Cincinnati",
         price: "$1400/mo",
         heroImg: "https://images.pexels.com/photos/5824526/pexels-photo-5824526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         cardImg: "https://images.pexels.com/photos/5824526/pexels-photo-5824526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
